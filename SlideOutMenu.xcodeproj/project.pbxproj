@@ -8,11 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		3940A9D61A42C2E700A8FA66 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3940A9D51A42C2E700A8FA66 /* AppDelegate.swift */; };
-		3940A9D81A42C2E700A8FA66 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3940A9D71A42C2E700A8FA66 /* ViewController.swift */; };
 		3940A9DB1A42C2E700A8FA66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3940A9D91A42C2E700A8FA66 /* Main.storyboard */; };
 		3940A9DD1A42C2E700A8FA66 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3940A9DC1A42C2E700A8FA66 /* Images.xcassets */; };
 		3940A9E01A42C2E700A8FA66 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3940A9DE1A42C2E700A8FA66 /* LaunchScreen.xib */; };
 		3940A9EC1A42C2E800A8FA66 /* SlideOutMenuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3940A9EB1A42C2E800A8FA66 /* SlideOutMenuTests.swift */; };
+		3940A9F61A42C3C400A8FA66 /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3940A9F51A42C3C400A8FA66 /* ContainerViewController.swift */; };
+		3940A9FE1A42C62F00A8FA66 /* CenterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3940A9FD1A42C62F00A8FA66 /* CenterTableViewController.swift */; };
+		3940AA021A42C6DD00A8FA66 /* SidePanelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3940AA011A42C6DD00A8FA66 /* SidePanelViewController.swift */; };
+		3940AA061A42DC0B00A8FA66 /* tool_menu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3940AA051A42DC0B00A8FA66 /* tool_menu@2x.png */; };
+		396ADB5F1A4E936000220D00 /* SecondaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396ADB5E1A4E936000220D00 /* SecondaryViewController.swift */; };
+		396ADB611A4EAA6000220D00 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396ADB601A4EAA6000220D00 /* WelcomeViewController.swift */; };
+		3983AEAC1A4C86200066B392 /* StatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3983AEAB1A4C86200066B392 /* StatusViewController.swift */; };
+		398BF1281A42EE0E000E4E4A /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398BF1271A42EE0E000E4E4A /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +36,21 @@
 		3940A9D01A42C2E700A8FA66 /* SlideOutMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlideOutMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3940A9D41A42C2E700A8FA66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3940A9D51A42C2E700A8FA66 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3940A9D71A42C2E700A8FA66 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3940A9DA1A42C2E700A8FA66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3940A9DC1A42C2E700A8FA66 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3940A9DF1A42C2E700A8FA66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		3940A9E51A42C2E800A8FA66 /* SlideOutMenuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlideOutMenuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3940A9EA1A42C2E800A8FA66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3940A9EB1A42C2E800A8FA66 /* SlideOutMenuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideOutMenuTests.swift; sourceTree = "<group>"; };
+		3940A9F51A42C3C400A8FA66 /* ContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
+		3940A9FD1A42C62F00A8FA66 /* CenterTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CenterTableViewController.swift; sourceTree = "<group>"; };
+		3940AA011A42C6DD00A8FA66 /* SidePanelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SidePanelViewController.swift; sourceTree = "<group>"; };
+		3940AA051A42DC0B00A8FA66 /* tool_menu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tool_menu@2x.png"; path = "../../iReward/Images/Toolbar/tool_menu@2x.png"; sourceTree = "<group>"; };
+		396ADB5E1A4E936000220D00 /* SecondaryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondaryViewController.swift; sourceTree = "<group>"; };
+		396ADB601A4EAA6000220D00 /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		3983AEA71A4C6FB10066B392 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		3983AEAB1A4C86200066B392 /* StatusViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusViewController.swift; sourceTree = "<group>"; };
+		398BF1271A42EE0E000E4E4A /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,10 +93,18 @@
 			isa = PBXGroup;
 			children = (
 				3940A9D51A42C2E700A8FA66 /* AppDelegate.swift */,
-				3940A9D71A42C2E700A8FA66 /* ViewController.swift */,
+				3940A9F51A42C3C400A8FA66 /* ContainerViewController.swift */,
+				3940AA011A42C6DD00A8FA66 /* SidePanelViewController.swift */,
+				3940A9FD1A42C62F00A8FA66 /* CenterTableViewController.swift */,
+				396ADB5E1A4E936000220D00 /* SecondaryViewController.swift */,
+				3983AEAB1A4C86200066B392 /* StatusViewController.swift */,
+				398BF1271A42EE0E000E4E4A /* DetailViewController.swift */,
+				396ADB601A4EAA6000220D00 /* WelcomeViewController.swift */,
 				3940A9D91A42C2E700A8FA66 /* Main.storyboard */,
+				3940AA051A42DC0B00A8FA66 /* tool_menu@2x.png */,
 				3940A9DC1A42C2E700A8FA66 /* Images.xcassets */,
 				3940A9DE1A42C2E700A8FA66 /* LaunchScreen.xib */,
+				3983AEA71A4C6FB10066B392 /* Bridging-Header.h */,
 				3940A9D31A42C2E700A8FA66 /* Supporting Files */,
 			);
 			path = SlideOutMenu;
@@ -195,6 +218,7 @@
 				3940A9DB1A42C2E700A8FA66 /* Main.storyboard in Resources */,
 				3940A9E01A42C2E700A8FA66 /* LaunchScreen.xib in Resources */,
 				3940A9DD1A42C2E700A8FA66 /* Images.xcassets in Resources */,
+				3940AA061A42DC0B00A8FA66 /* tool_menu@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,7 +236,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3940A9D81A42C2E700A8FA66 /* ViewController.swift in Sources */,
+				3940A9F61A42C3C400A8FA66 /* ContainerViewController.swift in Sources */,
+				396ADB611A4EAA6000220D00 /* WelcomeViewController.swift in Sources */,
+				3940AA021A42C6DD00A8FA66 /* SidePanelViewController.swift in Sources */,
+				398BF1281A42EE0E000E4E4A /* DetailViewController.swift in Sources */,
+				3940A9FE1A42C62F00A8FA66 /* CenterTableViewController.swift in Sources */,
+				3983AEAC1A4C86200066B392 /* StatusViewController.swift in Sources */,
+				396ADB5F1A4E936000220D00 /* SecondaryViewController.swift in Sources */,
 				3940A9D61A42C2E700A8FA66 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -339,8 +369,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SlideOutMenu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SlideOutMenu/Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -349,8 +381,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SlideOutMenu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SlideOutMenu/Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -407,6 +441,7 @@
 				3940A9F11A42C2E800A8FA66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3940A9F21A42C2E800A8FA66 /* Build configuration list for PBXNativeTarget "SlideOutMenuTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +450,7 @@
 				3940A9F41A42C2E800A8FA66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
